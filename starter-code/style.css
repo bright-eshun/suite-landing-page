@@ -208,7 +208,7 @@ footer {
     .container{min-width: 900px;}
     .header-btn:hover{background-color: rgb(73 86 109); color: rgb(250 248 246);}
     .desktop-view{display: flex; justify-content: space-between;}
-    .main-header {width: 38rem; top: -11rem;}
+    .main-header {width: 38rem; top: -13rem;}
 
 
     .curved-line {margin-left: 17rem; width: 275px;}
