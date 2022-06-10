@@ -192,9 +192,9 @@ footer {
     .mission {height: min-content; position: relative; top: 4rem;}
     .main-header {position: absolute; width: 31rem; top: -8.5rem}
     .curved-line{margin-left: 11.5 rem; width: 180px;}
-    .mission-statement{ font-size: 48px;}
+    .mission-statement{font-size: 48px;}
     .mobile-hero-img{display: none;}
-    .tablet-hero-img{display: block; width: 16rem;}
+    .tablet-hero-img-container{display: block; width: 16rem;}
     .stats{height: auto; flex-direction: row; justify-content: space-around;}
     .white-space{margin-top: 90px;}
     .jeremy-img-container{width: 54%; left: 8rem;}
@@ -203,29 +203,26 @@ footer {
     .footer-logo{width: 85px;}
     .background{width: 900px; position: absolute; height: 730px; z-index: -1; top: 1325px; background-color: rgb(243 237 231);}
 
-
 }
-
 @media screen and (min-width: 1024px){
-    .container{min-height: 900px; margin-bottom: 0;}
+    .container{min-width: 900px;}
     .header-btn:hover{background-color: rgb(73 86 109); color: rgb(250 248 246);}
-    .desktop-view {display: flex; justify-content: space-between;}
-    .main-header {width: 38rem; top: 12rem;}
+    .desktop-view{display: flex; justify-content: space-between;}
+    .main-header {width: 38rem; top: -11rem;}
+
+
     .curved-line {margin-left: 17rem; width: 275px;}
     .mission-statement {font-size: 72px;}
     .tablet-hero-img-container{width: 20rem;}
     .stats {flex-direction: column; margin: 0.4rem; justify-content: space-evenly;}
-    .white-space{height: 2rem;}
-
-
-.desktop-testimonial-2,
-.testimonial-body,
-.testimonial-name {text-align: left;}
-.desktop-testimonial-2 {height: 430px; padding: 4rem 4rem 0 2rem;}
-.testimonial-body {padding-left: 0;}
-.testimonial-content{flex-direction: row;}
-.jeremy-img-container {top: -1.25rem; left: 5.5rem; width: 17.5rem;}
-.blurred-bg {width: 26rem; padding: 3rem; padding-left: 3rem;}
-.background{width: 1248px; height:450px; position: absolute; top: 1100px;}
-
+    .white-space{height: 2rem;}   
+    .desktop-testimonial-2,
+    .testimonial-body,
+    .testimonial-name {text-align: left;}
+    .desktop-testimonial-2 {height: 430px; padding: 4rem 4rem 0 2rem;}
+    .testimonial-body {padding-left: 0;}
+    .testimonial-content{flex-direction: row;}
+    .jeremy-img-container {top: -1.25rem; left: 5.5rem; width: 17.5rem;}
+    .blurred-bg {width: 26rem; padding: 3rem; padding-left: 3rem;}
+    .background{width: 1248px; height:450px; position: absolute; top: 1100px;}
 }
