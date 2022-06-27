@@ -1,0 +1,338 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    font-family: "Rubik", sans-serif;
+    place-items: center;
+}
+
+.container {
+    width: 1110px;
+    margin: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.main-header {
+    top: -13.5rem;
+    position: absolute; 
+    width: 37rem;
+
+}
+button {
+    padding: 1rem;
+    border: 1px solid rgb(25 33 57);
+    background-color: white;
+    border-radius: 0.5rem;
+}
+main {
+    margin-top: 3rem;
+}
+.mission-statement {
+    color: rgb(23 35 57);
+    font-size: 72px;
+
+}
+bold {
+    font-weight: bold;
+}
+.curved-line-1 {
+    margin-left: 9.5rem;
+    width: 150px;
+}
+img .curve {
+    width: 100%;
+}
+span {
+    font-weight: 300;
+}
+.quote1 {
+    font-size: 20px;
+    line-height: 35px;
+    margin: 2rem auto 2rem 0;
+    font-weight: 300;
+    color: rgb(73 86 109);
+    width: 350px;
+}
+.mission-btn {
+    background-color: rgb(23 35 57);
+    color: rgb(250 248 246);
+}
+.hero {
+    margin: 3rem 3rem 3rem 3rem;
+
+
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+
+}
+.jeremy-img {
+    width:68%;
+    margin-left: 3rem;
+    margin-top: -0.4rem;
+
+}
+.bolded-stats {
+    font-size: 45px;
+    font-weight: bold;
+    
+
+}
+.stats-text {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(73 86 109);
+    
+}
+.hero-img-container,
+.tablet-hero-img-container{display: none;}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10rem;
+    padding-left: 20px;
+    margin-right: 2rem;
+
+
+
+}
+
+.stats-container {
+    padding: 30px;
+}
+.desktop-view {
+    display: flex;
+    margin: 0 auto; 
+    align-items: center;
+    justify-content:space-between;
+}
+.tablet-config {
+    display: flex;
+    margin: 0 auto; 
+    align-items: center;
+
+}
+.testimonial {
+    position: relative;
+    background: rgb(23 35 57);
+    color: rgb(250 248 246);
+    border-radius: 0.5rem;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.jeremy-img-container {
+    width: 50%;
+    position: absolute;
+    left: 3.5rem;
+    top: -3.25rem;
+    right: 5.5rem;
+
+}
+.blurred-bg {
+    margin-left: 1rem;
+    width: 26rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+
+}
+
+.curved-line-2 {
+    width: 15%;
+    margin-bottom: 9rem;
+
+}
+
+.testimonial-title {
+    font-size: 40px;
+    letter-spacing: -0.2px;
+    padding-bottom: 30px;
+}
+
+.testimonial-body {
+    margin-bottom: 2rem;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 300;
+    text-align: center;
+    padding-inline: 1.5rem;
+    margin: 1 rem auto;
+    text-align: left;
+    padding-left: 0;
+
+}
+.testimonial-name {
+    margin-bottom: 3rem;
+    text-align: left;
+    line-height: 32px;
+
+
+}
+.uppercase-bold {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.uppercase-regular {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.testimonial-body,
+.testimonial-name {text-align: left;}
+.desktop-testimonial-2 {
+    height: 430px; 
+    width: 425px;
+    padding: 4rem 4rem 0 2rem; 
+    position: relative; 
+    right: -1rem;
+    text-align: left;
+    bottom: 3rem;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: 0; 
+    padding: 0; 
+    height: 12rem;
+    padding: 4rem;
+    align-items: center;
+    background-color: rgb(243 237 231);
+    color: rgb(23 35 57)
+}
+.footer-logo{width: 85px;}
+#copyright {
+    text-transform: capitalize;
+    color: rgb(73 86 109);
+
+}
+.links ul{
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+.white-space {
+    height: 7rem;
+}
+.desktop-hero-img-container{
+    display: block; 
+    width: 20rem;
+    
+
+}
+.header-btn:hover{
+    background-color: rgb(73 86 109); 
+    color: rgb(250 248 246);
+}
+.mission {
+    height: min-content; 
+    position: relative; 
+    top: 3rem;
+
+}
+.desktop-hero-img {
+    margin-right: -3rem;
+}
+
+.background{
+    width: 1248px; 
+    height:700px; 
+    position: absolute; 
+    top: 1200px;
+    background-color:rgb(243 237 231);
+    z-index: -1;
+}
+
+
+@media only screen and (min-width: 360px) and (max-width:420px) {
+
+    .container div {width: 360px; margin: 0;}
+    .desktop-hero-img-container{display:None}
+    .hero-img-container {display:flex; flex-direction: column; margin-right: 60px; padding: 3rem 0.5rem;}
+    .desktop-view {display: flex;flex-direction: column; width: 360; margin-right: 440px;}
+    .mission-statement{font-size: 42px;}
+    .main-header {top:-3rem; width:360rem;justify-content: center;}
+    header{width:360px;}
+    .testimonial-content{flex-direction: column;}
+    .desktop-testimonial-2{top:3rem; text-align: center; padding: 0;}
+    .testimonial-body, .testimonial-name, .testimonial-title{text-align: center;}
+    .jeremy-img{width: 40%; margin-right: 8rem;}
+    .testimonial{width: 360px; margin-right: 70px; height: 43rem; text-align: center;}
+    .testimonial-body{font-size: 18px;}
+    .testimonial-title{font-size: 34px;}
+    .blurry {width: 20%;}
+    .desktop-view{flex-direction: column;}    
+    .bolded-stats{font-size: 26px;}
+    .stats-text {font-size: 18px;}
+    .tablet-config{margin: 0; flex-direction: column;}
+    .mission{display: flex; flex-direction: column;}
+    .quote1{margin-right: 0; margin-top: 6rem;text-align: justify;justify-content: center;}
+    .hero {margin-left: 0; margin-right: 0;}
+    .stats{padding-top: 10px;text-align: center;}
+    .stats-container{padding: 10px;}
+    footer {flex-direction: column; text-align: center; justify-content: space-around;height: 23rem;width: 360px;
+    }
+    .links ul{width: 7rem;justify-content: space-around;list-style: none;margin-left: auto; margin-right: auto;}
+    .header-btn{padding-top: 0.75rem; padding-bottom: 0.75rem; width: 290px;}
+    .curve-line-1{width: 9.5rem; margin-left: 9.5rem;}
+    .mission-btn {width:200px;padding-top: 1rem; padding-bottom: 1rem}
+    .background{display: None;}   
+    .mobile-hero-img{margin-left: 0;}
+    .curve-2 {margin-top: 7rem;}
+    
+}
+
+@media screen and (min-width: 600px) and (max-width:840px){
+    .container{width: 600px; margin-bottom: 0;}
+    button{padding: 1.2rem 1.8rem;}
+    .tablet-config {display: flex; margin: 0 auto; align-items: center;}
+    .mission {width: 19rem; position: relative; top: 4rem;}
+    .main-header {position: absolute; width: 31rem; top: -8.5rem}
+    .curved-line{margin-left: 11.5 rem; width: 180px;}
+    .mission-statement{font-size: 48px;}
+    .mobile-hero-img{display: none;}
+    .tablet-hero-img-container{display: block; width: 16rem;}
+    .stats{height: auto; flex-direction: row; justify-content: space-around;}
+    .white-space{margin-top: 50px;}
+    .jeremy-img-container{width: 54%; left: 8rem;}
+    .testimonial-title{font-size: 40px;}
+    footer{flex-direction: row; justify-content: space-between; margin: 0; padding: 0; height: 12rem;}
+    .footer-logo{width: 85px;}
+    .desktop-view{flex-direction: column;}
+    .testimonial-content{flex-direction: column;}
+    .testimonial {text-align: center; height: 800px;}
+    .jeremy-img{margin-top: -6rem;}
+    .blurry{width: 60%;}
+    .curve-2{margin-top: -0.5rem;}
+    .testimonial-title{margin-top: -7rem;}
+    .background{ top: 1300px;}
+    .desktop-testimonial-2{width: 600px;}
+    .testimonial-body, .testimonial-title, .testimonial-name{text-align: center;}
+
+
+
+
+}
