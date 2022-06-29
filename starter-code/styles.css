@@ -41,7 +41,7 @@ bold {
     font-weight: bold;
 }
 .curved-line-1 {
-    margin-left: 9.5rem;
+    margin-left: 14.5rem;
     width: 150px;
 }
 img .curve {
@@ -61,6 +61,8 @@ span {
 .mission-btn {
     background-color: rgb(23 35 57);
     color: rgb(250 248 246);
+    width: 250px;
+    height: 60px;
 }
 .hero {
     margin: 3rem 3rem 3rem 3rem;
@@ -239,13 +241,24 @@ footer{
 }
 .desktop-hero-img-container{
     display: block; 
-    width: 20rem;
+    width: 22rem;
+    margin-left: 4.5rem;
     
 
 }
 .header-btn:hover{
     background-color: rgb(73 86 109); 
     color: rgb(250 248 246);
+}
+
+.mission-btn:hover{
+    background: linear-gradient(
+        135deg,
+        #a060ff 0%,
+        #cb30e3 49.21%,
+        #ffa84e 100%
+      );
+    border-style: None;
 }
 .mission {
     height: min-content; 
@@ -309,13 +322,13 @@ footer{
     .container{width: 600px; margin-bottom: 0;}
     button{padding: 1.2rem 1.8rem;}
     .tablet-config {display: flex; margin: 0 auto; align-items: center;}
-    .mission {width: 19rem; position: relative; top: 4rem;}
+    .mission {width: 17rem; position: relative; top: 4rem;}
     .main-header {position: absolute; width: 31rem; top: -8.5rem}
     .curved-line{margin-left: 11.5 rem; width: 180px;}
     .mission-statement{font-size: 48px;}
-    .mobile-hero-img{display: none;}
+    .mobile-hero-img, .desktop-hero-img{display: none;}
     .tablet-hero-img-container{display: block; width: 16rem;}
-    .stats{height: auto; flex-direction: row; justify-content: space-around;}
+    .stats{height: auto; flex-direction: row; justify-content: space-around; margin: auto; width: 50;}
     .white-space{margin-top: 50px;}
     .jeremy-img-container{width: 54%; left: 8rem;}
     .testimonial-title{font-size: 40px;}
@@ -331,6 +344,10 @@ footer{
     .background{ top: 1300px;}
     .desktop-testimonial-2{width: 600px;}
     .testimonial-body, .testimonial-title, .testimonial-name{text-align: center;}
+    .tablet-hero-img{padding: 0;}
+    .curve-line-1{width: 170px;}
+
+
 
 
 
