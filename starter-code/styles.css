@@ -232,9 +232,9 @@ footer{
     justify-content: space-between;
     align-items: center;
     list-style: none;
-
 }
 
+footer{padding-top: 8rem;}
 
 .white-space {
     height: 7rem;
@@ -278,7 +278,13 @@ footer{
     background-color:rgb(243 237 231);
     z-index: -1;
 }
-
+svg{
+    fill:rgb(23 35 57);
+}
+svg:hover{
+    fill: #49566D;
+    
+}
 
 @media only screen and (min-width: 360px) and (max-width:420px) {
 
@@ -323,7 +329,7 @@ footer{
     button{padding: 1.2rem 1.8rem;}
     .tablet-config {display: flex; margin: 0 auto; align-items: center;}
     .mission {width: 17rem; position: relative; top: 4rem;}
-    .main-header {position: absolute; width: 31rem; top: -8.5rem}
+    .main-header {position: absolute; width: 27rem; top: -8.5rem}
     .curved-line{margin-left: 11.5 rem; width: 180px;}
     .mission-statement{font-size: 48px;}
     .mobile-hero-img, .desktop-hero-img{display: none;}
@@ -344,7 +350,7 @@ footer{
     .background{ top: 1300px;}
     .desktop-testimonial-2{width: 600px;}
     .testimonial-body, .testimonial-title, .testimonial-name{text-align: center;}
-    .tablet-hero-img{padding: 0;}
+    .tablet-hero-img{padding-left: 1rem;}
     .curve-line-1{width: 170px;}
 
 
